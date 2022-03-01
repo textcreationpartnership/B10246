@@ -1,0 +1,1783 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>A coat of divers colours fit for Joseph. Or, Piety in variety. By Jos. W. gentleman.</title>
+            <author>W., Jos., Gentleman.</author>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <date>1656</date>
+            </edition>
+         </editionStmt>
+         <extent>Approx. 52 KB of XML-encoded text transcribed from 20 1-bit group-IV TIFF page images.</extent>
+         <publicationStmt>
+            <publisher>Text Creation Partnership,</publisher>
+            <pubPlace>Ann Arbor, MI ; Oxford (UK) :</pubPlace>
+            <date when="2012-10">2012-10 (EEBO-TCP Phase 2).</date>
+            <idno type="DLPS">B10246</idno>
+            <idno type="OCLC"> 80925151</idno>
+            <idno type="STC">Wing W76A</idno>
+            <idno type="STC">ESTC R186105</idno>
+            <idno type="EEBO-CITATION">80925151</idno>
+            <idno type="OCLC">ocm 80925151</idno>
+            <idno type="VID">192153</idno>
+            <availability>
+               <p>To the extent possible under law, the Text Creation Partnership has waived all copyright and related or neighboring rights to this keyboarded and encoded edition of the work described above, according to the terms of the CC0 1.0 Public Domain Dedication (http://creativecommons.org/publicdomain/zero/1.0/). This waiver does not extend to any page images or other supplementary files associated with this work, which may be protected by copyright or other license restrictions. Please go to https://www.textcreationpartnership.org/ for more information about the project.</p>
+            </availability>
+         </publicationStmt>
+         <seriesStmt>
+            <title>Early English books online.</title>
+         </seriesStmt>
+         <notesStmt>
+            <note>(EEBO-TCP ; phase 2, no. B10246)</note>
+            <note>Transcribed from: (Early English Books Online ; image set 192153)</note>
+            <note>Images scanned from microfilm: (Early English books; 1641-1700 ; 2901:7)</note>
+         </notesStmt>
+         <sourceDesc>
+            <biblFull>
+               <titleStmt>
+                  <title>A coat of divers colours fit for Joseph. Or, Piety in variety. By Jos. W. gentleman.</title>
+                  <author>W., Jos., Gentleman.</author>
+               </titleStmt>
+               <extent>30, [2] p.   </extent>
+               <publicationStmt>
+                  <publisher>Printed for J.W.,</publisher>
+                  <pubPlace>[London] :</pubPlace>
+                  <date>1656.</date>
+               </publicationStmt>
+               <notesStmt>
+                  <note>Place of publication suggested by Wing.</note>
+                  <note>Imperfect: cropped at head with some loss of text and pagination.</note>
+                  <note>Reproduction of original in the Harvard University Library.</note>
+               </notesStmt>
+            </biblFull>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Created by converting TCP files to TEI P5 using tcp2tei.xsl,
+      TEI @ Oxford.
+      </p>
+         </projectDesc>
+         <editorialDecl>
+            <p>EEBO-TCP is a partnership between the Universities of Michigan and Oxford and the publisher ProQuest to create accurately transcribed and encoded texts based on the image sets published by ProQuest via their Early English Books Online (EEBO) database (http://eebo.chadwyck.com). The general aim of EEBO-TCP is to encode one copy (usually the first edition) of every monographic English-language title published between 1473 and 1700 available in EEBO.</p>
+            <p>EEBO-TCP aimed to produce large quantities of textual data within the usual project restraints of time and funding, and therefore chose to create diplomatic transcriptions (as opposed to critical editions) with light-touch, mainly structural encoding based on the Text Encoding Initiative (http://www.tei-c.org).</p>
+            <p>The EEBO-TCP project was divided into two phases. The 25,368 texts created during Phase 1 of the project (2000-2009), initially available only to institutions that contributed to their creation, were released into the public domain on 1 January 2015. The approximately 40,000 texts produced during Phase 2 (2009- ), of which 34,963 had been released as of 2020, originally similarly restricted, were similarly freed from all restrictions on 1 August 2020. As of that date anyone is free to take and use these texts for any purpose (modify them, annotate them, distribute them, etc.). But we do respectfully request that due credit and attribution be given to their original source.</p>
+            <p>Users should be aware of the process of creating the TCP texts, and therefore of any assumptions that can be made about the data.</p>
+            <p>Text selection was based on the New Cambridge Bibliography of English Literature (NCBEL). If an author (or for an anonymous work, the title) appears in NCBEL, then their works are eligible for inclusion. Selection was intended to range over a wide variety of subject areas, to reflect the true nature of the print record of the period. In general, first editions of a works in English were prioritized, although there are a number of works in other languages, notably Latin and Welsh, included and sometimes a second or later edition of a work was chosen if there was a compelling reason to do so.</p>
+            <p>Image sets were sent to external keying companies for transcription and basic encoding. Quality assurance was then carried out by editorial teams in Oxford and Michigan. 5% (or 5 pages, whichever is the greater) of each text was proofread for accuracy and those which did not meet QA standards were returned to the keyers to be redone. After proofreading, the encoding was enhanced and/or corrected and characters marked as illegible were corrected where possible up to a limit of 100 instances per text. Any remaining illegibles were encoded as &lt;gap&gt;s. Understanding these processes should make clear that, while the overall quality of TCP data is very good, some errors will remain and some readable characters will be marked as illegible. Users should bear in mind that in all likelihood such instances will never have been looked at by a TCP editor.</p>
+            <p>The texts were encoded and linked to page images in accordance with level 4 of the TEI in Libraries guidelines.</p>
+            <p>Copies of the texts have been issued variously as SGML (TCP schema; ASCII text with mnemonic sdata character entities); displayable XML (TCP schema; characters represented either as UTF-8 Unicode or text strings within braces); or lossless XML (TEI P5, characters represented either as UTF-8 Unicode or TEI g elements).</p>
+            <p>Keying and markup guidelines are available at the <ref target="http://www.textcreationpartnership.org/docs/.">Text Creation Partnership web site</ref>.</p>
+         </editorialDecl>
+         <listPrefixDef>
+            <prefixDef ident="tcp"
+                       matchPattern="([0-9\-]+):([0-9IVX]+)"
+                       replacementPattern="http://eebo.chadwyck.com/downloadtiff?vid=$1&amp;page=$2"/>
+            <prefixDef ident="char"
+                       matchPattern="(.+)"
+                       replacementPattern="https://raw.githubusercontent.com/textcreationpartnership/Texts/master/tcpchars.xml#$1"/>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="eng">eng</language>
+         </langUsage>
+         <textClass>
+            <keywords scheme="http://authorities.loc.gov/">
+               <term>Religious poetry, English --  Early modern, 1500-1700.</term>
+               <term>English poetry --  17th century.</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change>
+            <date>2012-01</date>
+            <label>TCP</label>Assigned for keying and markup</change>
+         <change>
+            <date>2012-02</date>
+            <label>SPi Global</label>Keyed and coded from ProQuest page images</change>
+         <change>
+            <date>2012-04</date>
+            <label>Ali Jakobson</label>Sampled and proofread</change>
+         <change>
+            <date>2012-04</date>
+            <label>Ali Jakobson</label>Text and markup reviewed and edited</change>
+         <change>
+            <date>2012-05</date>
+            <label>pfs</label>Batch review (QC) and XML conversion</change>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="eng">
+      <front>
+         <div type="title_page">
+            <pb facs="tcp:192153:1" rendition="simple:additions"/>
+            <pb facs="tcp:192153:1" rendition="simple:additions"/>
+            <pb facs="tcp:192153:2"/>
+            <pb facs="tcp:192153:2" rendition="simple:additions"/>
+            <pb facs="tcp:192153:3"/>
+            <pb facs="tcp:192153:3"/>
+            <p>A COAT OF DIVERS COLOVRS FIT FOR JOSEPH. <hi>OR,</hi> PIETY in VARIETY.</p>
+            <p>By <hi>Joſ. W.</hi> Gentleman.</p>
+            <q>
+               <bibl>
+                  <hi>Pſal. 139. ver. 23.24.</hi>
+               </bibl>
+               <p>Search me, O God, and know my heart: try me, and know my thoughts:</p>
+               <p>And ſee if there be any wicked way in me: and leade me in the way everlaſting.</p>
+            </q>
+            <p>Printed for <hi>J. W.</hi> 1656.</p>
+         </div>
+         <div type="to_the_reader">
+            <pb facs="tcp:192153:4"/>
+            <pb n="3" facs="tcp:192153:4"/>
+            <head>To the READER.</head>
+            <lg>
+               <l>
+                  <hi>VVHen in the Night I muſter up my wits,</hi>
+               </l>
+               <l>
+                  <hi>and doth attend an holy Meditation,</hi>
+               </l>
+               <l>
+                  <hi>A godly pleaſure it in me begits,</hi>
+               </l>
+               <l>
+                  <hi>that far exceeds a common eſtimation;</hi>
+               </l>
+               <l>
+                  <hi>But I muſt take the Motion ſtrong or weake,</hi>
+               </l>
+               <l>
+                  <hi>for in a Moment they will be to ſeeke.</hi>
+               </l>
+            </lg>
+            <lg>
+               <l>
+                  <hi>Of late in Bed it came into my Mind,</hi>
+               </l>
+               <l>
+                  <hi>how that I had Compos'd a little Book,</hi>
+               </l>
+               <l>
+                  <hi>Which to declare in part I am combind,</hi>
+               </l>
+               <l>
+                  <hi>to bide the cenſure I have undertook;</hi>
+               </l>
+               <l>
+                  <hi>Let</hi> Momus <hi>mutter, and</hi> Pan <hi>play on his Pipe</hi>
+               </l>
+               <l>
+                  <hi>my mounting Muze above finds moſt delight</hi>
+               </l>
+               <pb n="4" facs="tcp:192153:5" rendition="simple:additions"/>
+               <l>
+                  <hi>I</hi> David-<hi>like, doe thinke on Time that's ſpent,</hi>
+               </l>
+               <l>
+                  <hi>and communes with my heart,
+<note place="margin">
+                        <hi>Pſal.</hi> 4.4.</note> &amp; finds it ſad,</hi>
+               </l>
+               <l>
+                  <hi>Becauſe I cannot, as I would, Repent,</hi>
+               </l>
+               <l>
+                  <hi>for no Man living</hi> hath, <hi>or ever</hi> had,</l>
+               <l>
+                  <hi>Power to Repent, or Grace to gain by Merit,</hi>
+               </l>
+               <l>
+                  <hi>Mans work is weak, I find it by my ſpirit.</hi>
+               </l>
+            </lg>
+            <lg>
+               <l>
+                  <hi>Its God alone, that Heavenly God of Power,</hi>
+               </l>
+               <l>
+                  <hi>that</hi> Gilliads <hi>Balme doth give to his elect,</hi>
+               </l>
+               <l>
+                  <hi>Drops in their hearts of ſaving grace a ſhower</hi>
+               </l>
+               <l>
+                  <hi>which in the way of bliſſe doth them direct</hi>
+               </l>
+               <l>
+                  <hi>To heaven of heavens, where Saints</hi> &amp; <hi>Angels ſtore</hi>
+               </l>
+               <l>
+                  <hi>with glory ſings their ſongs for evermore.</hi>
+               </l>
+            </lg>
+            <lg>
+               <l>
+                  <hi>Go now my Booke, be not aſham'd, nor bluſh,</hi>
+               </l>
+               <l>
+                  <hi>let all men reade thy weak unlearned lines,</hi>
+               </l>
+               <l>
+                  <hi>And feare no Sects, for either heart or cruſh,</hi>
+               </l>
+               <l>
+                  <hi>thou haſt a Guard, that He, or his Aſſignes</hi>
+               </l>
+               <l>
+                  <hi>Will make thee help, when thou in need ſhall ſtand</hi>
+               </l>
+               <l>
+                  <hi>ſo I commend thee to his helping hand.</hi>
+               </l>
+            </lg>
+            <closer>
+               <signed>I. W.</signed>
+            </closer>
+         </div>
+      </front>
+      <body>
+         <div type="poem">
+            <pb n="5" facs="tcp:192153:5"/>
+            <head>The Crowing of the Cocke.</head>
+            <lg>
+               <l>VVHen <hi>Cocke</hi> doth Crow,
+<note place="margin">
+                     <hi>Luke</hi> 22.61.</note> me thinks to me appears</l>
+               <l>How <hi>Jeſus</hi> look'd on <hi>Peter, Peter</hi> ſhedding tears.</l>
+            </lg>
+            <lg>
+               <l>O bleſſed Saviour, when thy pleaſure is,</l>
+               <l>Look upon me, and mend what is amiſſe;
+<note place="margin">
+                     <hi>Pſal.</hi> 119.132.</note>
+               </l>
+               <l>And give me grace, not onely Faith alone,</l>
+               <l>But Heart, Words, Thoughts, and Prayers all in one</l>
+               <l>May cry aloud in Chriſt my Strength and Rocke,
+<note place="margin">
+                     <hi>Pſal.</hi> 71.3. <hi>Mat.</hi> 7.8.</note>
+               </l>
+               <l>Have mercy Lord, and heare thy Servant knocke.</l>
+            </lg>
+            <lg>
+               <l>I thanke the <hi>Bird,</hi> that touzed me from ſleep,</l>
+               <l>To ſighe for ſin, which caus'd St.
+<note place="margin">
+                     <hi>Mark</hi> 14.92. <hi>Mat.</hi> 26.75.</note> 
+                  <hi>Peter</hi> weep</l>
+               <l>So bitterly, that it is thought by ſome,</l>
+               <l>His Cheeks was gutterd with the Teares that run:</l>
+               <l>God grant me grace, with <hi>Peter</hi> to Repent,</l>
+               <l>And godly groanes, cauſe godly teares be ſpent.</l>
+            </lg>
+            <lg>
+               <l>Chriſt is the Ladder, by which I doe aſcend,
+<note place="margin">
+                     <hi>Gen.</hi> 28.12.</note>
+               </l>
+               <l>As well as Angels; for I on Chriſt depend</l>
+               <l>To Heaven, where Chriſt my Cauſe doth pleat,
+<note place="margin">
+                     <hi>Rom.</hi> 8.26</note>
+               </l>
+               <l>And tells his Father, that his bloody ſwear</l>
+               <l>Upon the Croſſe, did pacifie his wrath,</l>
+               <l>And cleans'd my ſins through true effectuall Faith.
+<note place="margin">
+                     <hi>Rom.</hi> 3.25</note>
+               </l>
+            </lg>
+            <lg>
+               <l>Chriſt is the Truth, the Life, and eke the VVay,
+<note place="margin">
+                     <hi>John</hi> 14.6</note>
+               </l>
+               <l>My Hope, my Help, my Comfort and my Stay;</l>
+               <l>Thus ſixt on Chriſt, in Chriſt my Faith I locke,</l>
+               <l>Made, through his Merits, one of the bleſſed Flocke.</l>
+               <pb n="6" facs="tcp:192153:6"/>
+               <l>All Honour,
+<note place="margin">1 <hi>Ep. Iohn</hi> 5.7.</note> Prayſe, and thanks I give to thee,</l>
+               <l>O holy, bleſſed, glorious Trinity.</l>
+            </lg>
+            <lg>
+               <l>This is my Faith,
+<note place="margin">The Au<g ref="char:EOLhyphen"/>thors faub.</note> if you beleeve it true,</l>
+               <l>God of his mercy grant the ſame to you;</l>
+               <l>It is a Bulworke built with ſuch a Hand,</l>
+               <l>That Hell, nor Devill, hath Power for to with-ſtand.</l>
+               <l>Then let us all the Lord of Lords give prayſe</l>
+               <l>For this firme Faith in theſe old doting dayes.</l>
+            </lg>
+            <lg>
+               <l>Reade, and obſerve theſe Lynes aright,</l>
+               <l>They'l make you Pray upon the Night.</l>
+            </lg>
+         </div>
+         <div type="poem">
+            <head>The Soules Deſire.</head>
+            <p>
+               <hi>Tell me (O thou whom my Soule loveth) where thou feedeſt,
+<note place="margin">
+                     <hi>Cant.</hi> 1.7.</note> where thou makeſt thy flocke to reſt at noone.</hi>
+            </p>
+            <p>There is foure ſorts of Faith Required, to finde whom the Soule loveth.</p>
+            <lg>
+               <l>1. TEll me my heart if thou doſt love the Lord?
+<note place="margin">
+                     <hi>Pſal.</hi> 119.1.</note>
+               </l>
+               <l>My heart to me this Anſwer did afford:</l>
+               <l>
+                  <hi>I love the Lord,</hi> and wiſh my love more ſtrong</l>
+               <l>For to repulſe my Enemies that throng,</l>
+               <l>To quench deſire, and draw me from my love,</l>
+               <l>To my great griefe, they doe my patience prove:</l>
+               <l>But fervent Faith is fixt ſo in my breaſt,</l>
+               <l>Ile ſpare no pains to take my Love at reſt,
+<note place="margin">A <hi>ſtrong faith.</hi>
+                  </note>
+               </l>
+               <l>In ſhady VVoods at Noone time of the Day,</l>
+               <l>Faſt Sleeping with his Flocks there finde I may.</l>
+            </lg>
+            <lg>
+               <l>2. Being thus perplext, at length I chanc'd to heare</l>
+               <l>A ſweet ſoft voyce, which calld, <hi>Come, draw neer,</hi>
+               </l>
+               <l>commanding me to marke what he did ſay,</l>
+               <l>And gave me charge I ſhould his words obey;</l>
+               <pb n="7" facs="tcp:192153:6"/>
+               <l>
+                  <hi>Fly Vice, hate Sinne, incline thine Eare to me,</hi>
+                  <note place="margin">
+                     <hi>Pſal.</hi> 116.1.2. <hi>An obedi<g ref="char:EOLhyphen"/>ent faith.</hi>
+                  </note>
+               </l>
+               <l>
+                  <hi>And love the Lord, becauſe he loved thee.</hi>
+               </l>
+               <l>With Heart and Soule I freely gave conſent,</l>
+               <l>And Vowed to him to be obedient.</l>
+            </lg>
+            <lg>
+               <l>3. My Love and I was thus with Joy united,</l>
+               <l>My former Follies I preſently invited,</l>
+               <l>And could them plainly, I had found a Love,</l>
+               <l>That mounts my joyes from Earth to Heaven above,
+<note place="margin">
+                     <hi>Col.</hi> 3.2.</note>
+               </l>
+               <l>Bids them be gone, and ſeek another Maſter,</l>
+               <l>I to my Heart had layd an Heavenly Playſter,
+<note place="margin">
+                     <hi>Pſal.</hi> 119.2</note>
+               </l>
+               <l>That killed Sin, and made my Conſcience cleare,</l>
+               <l>To love my God, and keep my Heart ſincere.
+<note place="margin">A <hi>ſincere faith.</hi>
+                  </note>
+               </l>
+            </lg>
+            <lg>
+               <l>4. Thus did my Heart declare it ſelfe at length,</l>
+               <l>And could me truth, it had but little ſtrength;</l>
+               <l>But what in ſtrength it found to be decaying,</l>
+               <l>It would make good by duitfull obeying,</l>
+               <l>And ſtrive to live a life in godly feare,</l>
+               <l>VVith Heart upright, and with a Soule ſincere,</l>
+               <l>Strong, obedient, ſincere in Prayer and Faſting,</l>
+               <l>I love the Lord, he me for Everlaſting.
+<note place="margin">Everlaſt<g ref="char:EOLhyphen"/>ing faith;</note>
+               </l>
+            </lg>
+         </div>
+         <div type="poem">
+            <head>The Lepers Complaint.</head>
+            <lg>
+               <l>LOrd looke upon my Leproſie,
+<note place="margin">
+                     <hi>Mat.</hi> 8.2.3. <hi>The lepers petitiou.</hi>
+                  </note>
+               </l>
+               <l>not on the outward blaine,</l>
+               <l>But on the inward Malladie</l>
+               <l>that filleth every Vaine:</l>
+               <l>It runs, and ſpreads it ſelfe abroad</l>
+               <l>in every joynt and Linam,</l>
+               <l>I feele it is a filthy Loade</l>
+               <l>this Leproſie of ſinn.</l>
+               <pb n="8" facs="tcp:192153:7"/>
+               <l>My fad complaints as ſharpe as thornes,</l>
+               <l>my earneſt long deſire,</l>
+               <l>For cutting out theſe painfull Cornes,</l>
+               <l>and throw them in the Fire.</l>
+               <l>My crying ſins, my ſins of ſhame,</l>
+               <l>my ſins that neer was ſeen,</l>
+               <l>
+                  <hi>Thou canſt,</hi>
+                  <note place="margin">
+                     <hi>Mark</hi> 1.40.</note> by calling of thy Name,</l>
+               <l>
+                  <hi>if that thou wilt, make Cleane.</hi>
+               </l>
+            </lg>
+            <lg>
+               <l>
+                  <hi>In</hi> thy Compaſſion pitty me,</l>
+               <l>
+                  <hi>I</hi> kneele, <hi>I</hi> begge, <hi>I</hi> crave,</l>
+               <l>None can me help, but onely thee,</l>
+               <l>thou knoweſt what <hi>I</hi> would have.</l>
+               <l>Be faithfull then, and courage take,</l>
+               <l>be not as thou haſt been;
+<note place="margin">
+                     <hi>Ver.</hi> 21</note>
+               </l>
+               <l>Doe all thy former ſinnes forſake,</l>
+               <l>
+                  <hi>I will; then be thou Cleane,</hi>
+               </l>
+            </lg>
+         </div>
+         <div type="poem">
+            <head>A Zealous deſire.</head>
+            <lg>
+               <l>O God, my God, give Grace and Might,</l>
+               <l>with Prayers ſincere to Pray to thee,</l>
+               <l>That <hi>I</hi> may ſee that glorious Light</l>
+               <l>that ſhines in all Eternity:</l>
+               <l>This my Deſire, <hi>I</hi> humbly crave,</l>
+               <l>my God faſt in my Heart to knit,</l>
+               <l>That it my ſilly Soule may ſave,</l>
+               <l>from the vaſt deep infarnall Pit.</l>
+            </lg>
+            <lg>
+               <l>No Condemnation then <hi>I</hi> feare,
+<note place="margin">
+                     <hi>Rom.</hi> 8.1</note>
+               </l>
+               <l>all fleſhly Luſts <hi>I</hi> hate and fly;</l>
+               <l>Thy VVord makes mine Election cleare,</l>
+               <l>that <hi>I</hi> ſhall live Eternally;</l>
+               <pb n="9" facs="tcp:192153:7"/>
+               <l>A lively Faith within my breaſt,</l>
+               <l>thy holy Spirit doth inſpire,</l>
+               <l>And bids me ſet my Heart at reſt,</l>
+               <l>the God of gods grant my deſire.</l>
+            </lg>
+         </div>
+         <div type="poem">
+            <head>A Watch over the Soule.</head>
+            <lg>
+               <l>REſt now my Soule, have care to kill</l>
+               <l>the power of Satan every day;</l>
+               <l>With feare worke thy Salvation ſtill,</l>
+               <l>trembling, ſobbing,
+<note place="margin">
+                     <hi>Phila.</hi> 2.12.</note> ſighing Pray</l>
+               <l>To keep thee from that wicked thought,</l>
+               <l>for now the Devill begins to rore;</l>
+               <l>That ſins no fin, a thing of nought,
+<note place="margin">1 <hi>Ep. Pet.</hi> 5.8. <hi>Heb.</hi> 10.26.</note>
+               </l>
+               <l>and man once call'd, can ſin no more.</l>
+            </lg>
+            <lg>
+               <l>Thus <hi>David</hi> muſt confirme a Lye,</l>
+               <l>and <hi>Paul</hi> to write that is not true,
+<note place="margin">1 <hi>Ep. Ioh.</hi> 1.8. <hi>Pſal.</hi> 51.3 <hi>Rom.</hi> 5.12 <hi>Rom.</hi> 3.9, 10. <hi>Luke</hi> 22, 62. 2 <hi>Cor.</hi> 10.18.</note>
+               </l>
+               <l>Sure ſin did cauſe Saint <hi>Peter</hi> cry,</l>
+               <l>theſe men they were as good as you:</l>
+               <l>Audatious woefull wretched Sect,</l>
+               <l>this Deviliſh Doctrine to maintaine,</l>
+               <l>You cannot couſen Gods Elect,</l>
+               <l>Lament, Repent, and Bluſh for ſhame.</l>
+            </lg>
+            <lg>
+               <head>
+                  <hi>Pſal.</hi> 118.28.</head>
+               <l>The God of Heaven I ſer<gap reason="illegible" resp="#KEYERS" extent="2 letters">
+                     <desc>••</desc>
+                  </gap> alone,
+<note place="margin">
+                     <hi>Pſ.</hi> 118, 28.</note>
+               </l>
+               <l>he is a God of Majeſty<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>
+               </l>
+               <l>My God ſits on a glorious Throne,</l>
+               <l>this God I ſerve, and none but <hi>He:</hi>
+               </l>
+               <l>I thanke this God that gives me grace,</l>
+               <l>to call upon him Night and Day,</l>
+               <l>I hope to ſee him Face to Face,</l>
+               <l>that gives me grace in Faith to Pray.</l>
+            </lg>
+         </div>
+         <div type="poem">
+            <pb n="10" facs="tcp:192153:8"/>
+            <head>
+               <g ref="char:V">Ʋ</g>pon a Cracke of Thunder.</head>
+            <lg>
+               <l>I Know, O Lord, when thou doſt ſpeake,</l>
+               <l>Thy Voyce makes all the Clouds to breake:</l>
+               <l>Lord grant me Grace when I doe Pray,</l>
+               <l>My Prayers may peirce to Heaven a Way,</l>
+               <l>And from that Place, an anſwer bring,</l>
+               <l>Thy Prayers are heard, Rejoyce and Sing,</l>
+               <l>All Honour, Prayſe, and Thankes to thee,</l>
+               <l>One Glorious God, in Perſons three.</l>
+            </lg>
+         </div>
+         <div type="poem">
+            <head>Pauls <hi>Determination.</hi>
+            </head>
+            <p>
+               <hi>For I</hi> Determine <hi>not to know any thing among you, ſave Jeſus Chriſt, and him Crucified,</hi> 1 Cor. 2.2.</p>
+            <lg>
+               <l>A Godly Preacher gave a touch,</l>
+               <l>A man may ſinne in knowing much;</l>
+               <l>The Devill did winke, gave <hi>Eve</hi> a Nod,</l>
+               <l>And tould her, <hi>They ſhould be as God.</hi>
+               </l>
+               <l>But Eate one Apple of that <hi>Tree,</hi>
+                  <note place="margin">
+                     <hi>Gen.</hi> 3.5.</note>
+               </l>
+               <l>And you ſhall know as much as he:</l>
+               <l>This Knowledge was the fatall fall</l>
+               <l>Of <hi>Adam,
+<note place="margin">Originall know<g ref="char:EOLhyphen"/>ledge.</note> Eve,</hi> Man-kind and all.</l>
+            </lg>
+            <lg>
+               <l>
+                  <hi>Philoſophers</hi> all things <gap reason="illegible" resp="#KEYERS" extent="1 word">
+                     <desc>〈◊〉</desc>
+                  </gap> know,
+<note place="margin">Naturall know<g ref="char:EOLhyphen"/>ledge.</note>
+               </l>
+               <l>
+                  <hi>That</hi> Naturally on Earth doe Grow,</l>
+               <l>As <hi>Hearbs,</hi> and <hi>Treet</hi> of every kind,</l>
+               <l>By Knowledge they their Vertues find:</l>
+               <l>But gods for God,
+<note place="margin">1 <hi>Cor.</hi> 8.4.</note> they fondly faine,</l>
+               <l>Doting on phaneies idle braine;</l>
+               <l>Againſt the God of gods they ſin.
+<note place="margin">
+                     <hi>Ver.</hi> 5.6.</note>
+               </l>
+               <l>Gives Nature that, that's due to him.</l>
+               <pb n="11" facs="tcp:192153:8"/>
+               <l>
+                  <hi>There</hi> is that knowledge doth affect,
+<note place="margin">1 <hi>Cor.</hi> 3, 2</note>
+               </l>
+               <l>And ſeems to know like Gods Elect;</l>
+               <l>
+                  <hi>They ſinne,</hi> and feed themſelves with hope,</l>
+               <l>And give their Conſcience too much ſcope.
+<note place="margin">A general know<g ref="char:EOLhyphen"/>ledge.</note>
+               </l>
+               <l>A generall Faith they hope is good,</l>
+               <l>
+                  <hi>That</hi> Chriſt for all did ſpend his blood;</l>
+               <l>But know poor Soule what ere thou be,
+<note place="margin">
+                     <hi>Iohn</hi> 11.26.27.</note>
+               </l>
+               <l>
+                  <hi>Thou</hi> muſt beleeve he dyed for thee.</l>
+            </lg>
+            <lg>
+               <l>Some uſe their Knowledge for to gaine,</l>
+               <l>
+                  <hi>That</hi> being got, they finde but vaine;
+<note place="margin">
+                     <hi>Rom.</hi> 14, 1.</note>
+               </l>
+               <l>Some bend their knowledge to Diſpute,</l>
+               <l>So Vice ſeems ſinne for to Confute:</l>
+               <l>Some uſe their knowledge to finde Grace,
+<note place="margin">
+                     <hi>Iohn</hi> 17.3. <hi>Rom.</hi> 3, 24. <hi>Effectuall faith.</hi>
+                  </note>
+               </l>
+               <l>
+                  <hi>That</hi> dare look ſinne into the Face;</l>
+               <l>So ſome there is that knowledge have,</l>
+               <l>Effectually their Soule to ſave.</l>
+            </lg>
+            <lg>
+               <l>Its deep to know the Miſterie,</l>
+               <l>
+                  <hi>That's</hi> VVrit in holy Hiſtorie;</l>
+               <l>A Sonne borne of a Virgin pure,
+<note place="margin">
+                     <hi>Iſay</hi> 7, 14.</note>
+               </l>
+               <l>
+                  <hi>That Balme of Gillead</hi> all will Cure;</l>
+               <l>It is deep knowledge for to know,
+<note place="margin">Deep know<g ref="char:EOLhyphen"/>ledge.</note>
+               </l>
+               <l>
+                  <hi>That God and Man</hi> ſhould live below</l>
+               <l>Upon the Earth, yet had no ſin,</l>
+               <l>No fraud, nor guile was found in him.
+<note place="margin">1 <hi>Ep. Pet.</hi> 2.22.</note>
+               </l>
+            </lg>
+            <lg>
+               <l>Wilt thou have knowledge that ſhall laſt,</l>
+               <l>Then fix thy Faith on Chriſt ſo faſt</l>
+               <l>As he was nayl'd upon the <hi>Tree,</hi>
+                  <note place="margin">Laſting know<g ref="char:EOLhyphen"/>ledge.</note>
+               </l>
+               <l>So faſt thy Faith one him ſhall be,</l>
+               <l>
+                  <hi>That</hi> mortall Death ſhall not thee dant,</l>
+               <l>Nor Fier of Hell ſhall make thee pant,</l>
+               <pb n="12" facs="tcp:192153:9"/>
+               <l>For Chriſt his Death, by Faith I know,</l>
+               <l>
+                  <hi>The</hi> power of ſinne doth overthrow.</l>
+               <l>All this knowledge <hi>Paul</hi> rejects,</l>
+               <l>Chriſt Crucified, that he affects.</l>
+            </lg>
+         </div>
+         <div type="poem">
+            <head>Pauls <hi>Deſire.</hi>
+            </head>
+            <lg>
+               <l>CHriſt Crucified on the Croſſe,
+<note place="margin">
+                     <hi>Mat.</hi> 27.25. <hi>Rom,</hi> 5, 1.</note>
+               </l>
+               <l>by Faith I have in him,</l>
+               <l>Doth cleare me from the Law and Curſe,</l>
+               <l>that's due to me for ſin:</l>
+               <l>
+                  <hi>Thy</hi> ſuffering Lord ſhall mortifie</l>
+               <l>my Fleſh that's fraile and vaine;</l>
+               <l>
+                  <hi>Thy</hi> buriall it doth teſtifie,
+<note place="margin">
+                     <hi>Mat.</hi> 27, <gap reason="illegible" resp="#MURP" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>0.</note>
+               </l>
+               <l>that thou, as Man, was ſlaine,</l>
+               <l>
+                  <hi>Thou</hi> didſt Deſcend, yet by thy power,</l>
+               <l>didſt Riſe,
+<note place="margin">
+                     <hi>Mat.</hi> 28, 6.</note> and then Aſcend</l>
+               <l>Into that heavenly glorious tower,</l>
+               <l>where joyes ſhall never end:</l>
+               <l>
+                  <hi>There</hi> thou on Gods right hand doth ſit,
+<note place="margin">
+                     <hi>Heb.</hi> 10.12. <gap reason="illegible" resp="#MURP" extent="1 letter">
+                        <desc>•</desc>
+                     </gap> 
+                     <hi>Ep. Pet.</hi> 2, 5.</note>
+               </l>
+               <l>and pleads for thine Elect,</l>
+               <l>
+                  <hi>That</hi> they with thee a place may git</l>
+               <l>a glorious proſpect.</l>
+               <l>
+                  <hi>This</hi> is the knowledge that I crave,</l>
+               <l>all other ſhadowes be;</l>
+               <l>
+                  <hi>This</hi> fixed knowledge I would have,</l>
+               <l>
+                  <hi>Chriſt Crucified</hi> for me.</l>
+            </lg>
+         </div>
+         <div type="poem">
+            <head>A Spirituall King.</head>
+            <p>
+               <hi>For he muſt reigne till he hath put all his Enemies under his feet,</hi> 1 Cor. 15.25.</p>
+            <lg>
+               <pb n="13" facs="tcp:192153:9"/>
+               <l>A Glorious King doth ſit in Heaven,
+<note place="margin">Acts 7.5<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>
+                  </note>
+               </l>
+               <l>which is the King that I affect,</l>
+               <l>Seen upon Earth by holy <hi>Stoven,</hi>
+               </l>
+               <l>and dwells on Earth with his Elect;
+<note place="margin">
+                     <hi>Iohn</hi> 6.50</note>
+               </l>
+               <l>Yet not in Pompe, nor State at all,</l>
+               <l>but Spiritually Majeſticall.</l>
+            </lg>
+            <lg>
+               <l>
+                  <hi>To</hi> his Diſciples he gave Power</l>
+               <l>on Earth, to <hi>Teach, Preach,</hi> and <hi>Baptize;</hi>
+                  <note place="margin">
+                     <hi>Mat.</hi> 10.7. Acts 2.38</note>
+               </l>
+               <l>
+                  <hi>That</hi> ſtill remains, untill this hower,</l>
+               <l>to them he calls, and rightly riſe,</l>
+               <l>With Hands layd on by holy Order,</l>
+               <l>confirm'd, approv'd by Heavens Recorder.</l>
+            </lg>
+            <lg>
+               <l>
+                  <hi>This</hi> King hath Lawes for to obſerve,</l>
+               <l>which all his Subjects muſt obey;</l>
+               <l>His little Flocke he will preſerve,</l>
+               <l>from either Wolfe, or Lyons Prey:</l>
+               <l>Sinne and Vice, Death, Devill and Hell,
+<note place="margin">1 <hi>Cor.</hi> 13.55.56.</note>
+               </l>
+               <l>he in a moment will expell:</l>
+               <l>Reigne he ſhall, and Raigne he muſt,</l>
+               <l>Vntill his Foes be trod to duſt.</l>
+            </lg>
+         </div>
+         <div type="poem">
+            <head>Another of the ſame.</head>
+            <lg>
+               <l>THe <hi>King</hi> of <hi>Kings</hi> in Heaven doth ſit in State,
+<note place="margin">The kings foes.</note>
+               </l>
+               <l>He hates his Foes, his Foes him deadly hate;</l>
+               <l>The Devill as Chiefe, his kingdome to advance,
+<note place="margin">1 <hi>The De<g ref="char:EOLhyphen"/>vill.</hi> 1 <hi>Peter</hi> 3.8.9.</note>
+               </l>
+               <l>Keeps Carnall men in ſimple ignorance;</l>
+               <l>Makes them beleeve, becauſe they cannot Reade,</l>
+               <l>They neither hope, not help of Scripture need;</l>
+               <l>
+                  <hi>Rome, Rome,</hi> beware, that cloſe this ſinne doth ſmother,</l>
+               <l>Makes Ignorance to be Devotions Mother.
+<note place="margin">
+                     <hi>Ignorance</hi> 2 <hi>Ep. Pet.</hi> 3.5.8.</note>
+               </l>
+            </lg>
+            <lg>
+               <l>The Devill hath yet a keene ſharpe-headed Arrow,</l>
+               <l>To pierce the bones, and ſticke faſt in the Marrow;</l>
+               <pb n="14" facs="tcp:192153:10"/>
+               <l>He telleth youth, he may Repent in time,</l>
+               <l>And ſpend in pleaſure all his yeares of prime,</l>
+               <l>Make Drinke thy darling, let looſe the reignes of Luſt,</l>
+               <l>Gods made of Mercy,
+<note place="margin">Prolong<g ref="char:EOLhyphen"/>ing repen<g ref="char:EOLhyphen"/>tance.</note> he never tells he's Juſt:</l>
+               <l>When ſcores of yeares doth turne thy Haires Gray,</l>
+               <l>Its time enough for to Repent and Pray:</l>
+               <l>And having brought him in this ſad Condition,</l>
+               <l>Death ſhoots his Dart, and ends the Devils Commiſſion.</l>
+            </lg>
+            <lg>
+               <l>And now an Enemy of great power doth ſpring,</l>
+               <l>Drawes many Subjects from this <hi>Heavenly King;</hi>
+               </l>
+               <l>The VVorke-mans worke againſt him doth rebell,
+<note place="margin">The world.</note>
+               </l>
+               <l>He made the VVorld, and it drawes Soules to Hell:</l>
+               <l>God made it good, but now it is abuſed</l>
+               <l>By wicked men, that <gap reason="illegible" resp="#KEYERS" extent="1 word">
+                     <desc>〈◊〉</desc>
+                  </gap> their God refuſed.</l>
+            </lg>
+            <lg>
+               <l>The Gold of <hi>Ophir</hi> makes VVorldlings to offend,</l>
+               <l>And Silver Mindes will never make them mend;</l>
+               <l>When Honour prickes Ambition to the Heart,</l>
+               <l>It makes him Cart-horſe to vaine-glories Cart;</l>
+               <l>He pulls and ſweats, it turns on Fortunes VVheeles,</l>
+               <l>And ſneaking Envie, runs at honours heeles:</l>
+               <l>At length it mounts upon the Mount <hi>Parnaſſes,</hi>
+               </l>
+               <l>Then brought down head-long with a Teame of Aſſer.</l>
+            </lg>
+            <lg>
+               <l>O wretched man,
+<note place="margin">The Vſe.</note> the Devill he is too cunning,</l>
+               <l>He never tells thee that thy Glaſſe is running,</l>
+               <l>That Ignorance, is no excuſe at all,</l>
+               <l>Delaying time, oft proves thy fatall fall.</l>
+               <l>The VVorld a VVitch, drawes men into a Maze,</l>
+               <l>That ſtill he runs, untill he run his dayes:</l>
+               <l>Turne backe betime Repent, and Cry for Grace,</l>
+               <l>VVhen Chriſt appears, ſinne hath an ugly Face.</l>
+               <l>Now laſt of all, grim Death muſt yeeld his Power,</l>
+               <l>This glorious <hi>King</hi> will make that Tyrant cower:</l>
+               <pb facs="tcp:192153:10"/>
+               <l>Death, Devill, and Sinne, muſt all be forc'd to yeeld,</l>
+               <l>And <hi>King</hi> of <hi>Kings</hi> have Glory in the Field.</l>
+               <l>
+                  <hi>Thus all his Foes being troden under Feet,</hi>
+               </l>
+               <l>
+                  <hi>He ſits triumphing in a glorious Seat.</hi>
+               </l>
+            </lg>
+         </div>
+         <div type="poem">
+            <head>An Admonition for Children.</head>
+            <lg>
+               <l>LOve and obey thy Parents in thy heart,
+<note place="margin">
+                     <hi>Prov.</hi> 6.20.21.22, 23.</note>
+               </l>
+               <l>where ere thou goeſt, they'l leade thee on thy way;</l>
+               <l>VVhen thou doſt ſleep, they will not from thee part,</l>
+               <l>and when thou wakes, they'l move thee for to Pray,</l>
+               <l>That God will bleſſe them, and increaſe their ſtore,</l>
+               <l>That is the way to make thy bleſſing more.</l>
+            </lg>
+            <lg>
+               <l>Feare their Commands, they are a lampe ſo cleare,</l>
+               <l>that they will make thee vertuouſly to live;</l>
+               <l>Thy Fathers Care, and Mothers Love is deare,</l>
+               <l>and good Inſtructions they are bound to give;</l>
+               <l>VVhich being followed, mittigates all ſtrife,</l>
+               <l>And brings the Child into the way of Life.</l>
+            </lg>
+         </div>
+         <div type="poem">
+            <head>
+               <hi>Luke</hi> 1.60.</head>
+            <lg>
+               <l>BLeſt be the God that's <hi>Iſraels</hi> Lord,</l>
+               <l>for his kinde Viſitation,</l>
+               <l>VVho ſent to us his Divine VVord,</l>
+               <l>that wrought our Soules Salvation:</l>
+               <l>From <hi>Davids</hi> Loynes, and <hi>Jeſſes</hi> Root,</l>
+               <l>a Vine did ſpring upright,</l>
+               <l>That ſpread all <hi>Iſrael</hi> about,</l>
+               <l>a glorious Lampe of Light,</l>
+               <l>Thy holy Prophets did declare,</l>
+               <l>that we ſhould ſaved be,</l>
+               <pb facs="tcp:192153:11"/>
+               <l>To keep that Promiſe that thou Sware,</l>
+               <l>thy Covenant to free,</l>
+               <l>Vs to deliver from the hand,</l>
+               <l>and feare of all our Foes,</l>
+               <l>In holineſſe, upright to ſtand,</l>
+               <l>till Death our Dayes incloſe.</l>
+            </lg>
+            <lg>
+               <l>And thou, O Child, and Prophet Great,</l>
+               <l>prepare the way thou muſt,</l>
+               <l>Through ſorrows ſad, and bloody ſweat,</l>
+               <l>for to Redeeme the juſt:</l>
+               <l>Through tender mercy, God gave Grace,</l>
+               <l>from Darkeneſſe, Day to bring;</l>
+               <l>And made our way to perfect Peace,</l>
+               <l>from <hi>Jeſſ<gap reason="illegible" resp="#MURP" extent="2 letters">
+                        <desc>••</desc>
+                     </gap>
+                  </hi> Root to Spring.
+<note place="margin">2 <hi>Ep. Tim.</hi> 2.8.</note>
+               </l>
+            </lg>
+         </div>
+         <div type="poem">
+            <head>
+               <hi>Meditations of Saint</hi> Steven.</head>
+            <lg>
+               <l>POndring with Admitation,</l>
+               <l>how <hi>Paul</hi> was wrapt to Meaven,</l>
+               <l>I had a Meditation,</l>
+               <l>upon the Death of <hi>Itoven:</hi>
+               </l>
+               <l>All faithfull Martyrs may,</l>
+               <l>by Faith, ſee all things fitting,</l>
+               <l>Heaven ope more cleare then Day,</l>
+               <l>and Chriſt ia Glory ſitting:
+<note place="margin">
+                     <hi>Acts</hi> 7.<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>5.</note>
+               </l>
+               <l>This Martyr was the firſt,</l>
+               <l>that ſee from Earth to Heaven,</l>
+               <l>A Comfort to the reſt,</l>
+               <l>that ſheds their blood like <hi>Steven.</hi>
+               </l>
+            </lg>
+         </div>
+         <div type="poem">
+            <head>The Glory of the Trinity.</head>
+            <lg>
+               <l>SAint <hi>John</hi> came poor, had neither Gold nor Mony,</l>
+               <l>but yet he had the Spirit of <hi>Elias;</hi>
+               </l>
+               <pb facs="tcp:192153:11"/>
+               <l>His Meate was Locuſt, and a little Honny:
+<note place="margin">
+                     <hi>Mat.</hi> 3.4.</note>
+               </l>
+               <l>he Preached Repentance, and Cured <hi>Hezekiah.</hi>
+               </l>
+               <l>I never Read, he ever Preached of Merrit,</l>
+               <l>or workes of men could Heavenly joyes inherit.</l>
+            </lg>
+            <lg>
+               <l>In <hi>Jerdans</hi> Flood, <hi>John</hi> did Baptize indeed,
+<note place="margin">
+                     <hi>Ver.</hi> 17.</note>
+               </l>
+               <l>and thither did our bleſſed Saviour come;</l>
+               <l>From Heaven a Dove deſcended on his Head,
+<note place="margin">
+                     <hi>ver.</hi> 16.17.</note>
+               </l>
+               <l>a Voyce was heard, <hi>this is my loved Sonne:</hi>
+               </l>
+               <l>Bleſt Eyes and Eares, that there did heare and ſee,</l>
+               <l>without diſpute, the bleſſed Trinitie.</l>
+            </lg>
+            <lg>
+               <l>
+                  <hi>Herod</hi> that Fox, accuſeth <hi>John</hi> the juſt,
+<note place="margin">
+                     <hi>Mat.</hi> 14.3.</note>
+               </l>
+               <l>for ſpeaking truth; to Priſon he muſt goe,</l>
+               <l>A Dancing Damſell, and unlawfull Luſt,
+<note place="margin">
+                     <hi>ver.</hi> 6.</note>
+               </l>
+               <l>joyn'd joyntly both, poor <hi>John</hi> to overthrow,</l>
+               <l>A damned Beldame of a curſed Seed,
+<note place="margin">
+                     <hi>ver.</hi> 
+                     <gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                        <desc>•</desc>
+                     </gap> 
+                     <hi>&amp;</hi> 10.</note>
+               </l>
+               <l>betraide poor <hi>John,</hi> and made him loſe his Head.</l>
+            </lg>
+         </div>
+         <div type="poem">
+            <head>The Guides to Heaven.</head>
+            <lg>
+               <l>VAine-glory, Honour, Pleaſure, Pride,
+<note place="margin">
+                     <hi>Pſal.</hi> 45.10.11.</note>
+               </l>
+               <l>Idolatry, and Luſt,</l>
+               <l>VVhen <hi>Pharaohs</hi> Daughter is a Bride,</l>
+               <l>She muſt lay in the Duſt;</l>
+               <l>Then Marry her to <hi>Canaans King,</hi>
+               </l>
+               <l>She will content his mind,</l>
+               <l>Such vertuous Beauty for to bring,</l>
+               <l>leaves <hi>Egypts</hi> ſinnes behind.</l>
+            </lg>
+            <lg>
+               <l>Even ſo my Sovle, thou Chriſt ſhalt take,</l>
+               <l>thy Husband for to be,</l>
+               <l>And all thy former ſinnes forſake,</l>
+               <l>and make thy Conſcience free;</l>
+               <pb facs="tcp:192153:12"/>
+               <l>Not giving way to any one,</l>
+               <l>for one thy Soule may kill,</l>
+               <l>But give to Chriſt thy Soule alone,</l>
+               <l>who will all joyes fulfill.</l>
+            </lg>
+            <lg>
+               <l>Though Fleſh be fraile, Fight, doe not yeild,</l>
+               <l>give no Conſent be ſure,</l>
+               <l>Unfaigned Faith muſt be thy Sheild,</l>
+               <l>it ſhall thy Soule ſecure:</l>
+               <l>True Charity muſt be thy Guide,</l>
+               <l>hold Hope faſt by the hand,</l>
+               <l>Thy holy Angell Guards thy ſide,</l>
+               <l>ſo walke to <hi>Canaans</hi> Land.</l>
+            </lg>
+         </div>
+         <div type="poem">
+            <head>Pauls <hi>Counſell to the Gentiles.</hi>
+            </head>
+            <lg>
+               <l>SAint <hi>Paul</hi> was Call'd the Gentiles for to Call,
+<note place="margin">1 <hi>Cor.</hi> 11.18.</note>
+               </l>
+               <l>And to Convert them to the Chriſtian Faith;</l>
+               <l>He Preach'd with Power, to Comfort them with all,</l>
+               <l>And gave them Counſell, as the Scripture ſaith;</l>
+               <l>Firſt try themſelves by true Examination,</l>
+               <l>And then to take the Signes of their Salvation.</l>
+            </lg>
+            <lg>
+               <l>Forget, forgive, and make thy Conſcience cleare,</l>
+               <l>Thy Darling Sinne pull up and throw away;</l>
+               <l>A Contrite Heart, joyn'd with a godly feare,</l>
+               <l>Will worke this Faith, that Chriſt thy debts did pay</l>
+               <l>Upon the Croſſe; have but this ſtrong beleife,</l>
+               <l>
+                  <hi>This</hi> ſaving Faith redeems thee from thy greife.</l>
+            </lg>
+            <lg>
+               <l>Sinne was the Cauſe thy ſorrows are ſo great;</l>
+               <l>Let godly ſorrow drive away thy ſin,</l>
+               <l>It is but folly for to chafe and fret,</l>
+               <l>Rely on Chriſt, and put thy truſt in him;</l>
+               <pb n="19" facs="tcp:192153:12"/>
+               <l>Repent in Heart, and Chriſt thy Soule ſhall feed</l>
+               <l>VVith Angels Food, in Signes of VVine and Bread.</l>
+            </lg>
+         </div>
+         <div type="poem">
+            <head>Holy Advice.</head>
+            <lg>
+               <l>BY holy VVrit, I heard it prov'd at large,</l>
+               <l>That we our ſelves to God ſhould reconcile;
+<note place="margin">2 <hi>Cor.</hi> 5.20.</note>
+               </l>
+               <l>Not to delay the time, was given in charge,</l>
+               <l>But to Repent, and drive ſinne to Exile:</l>
+               <l>For Chriſt, our Chriſt, for ſinne hath borne the ſmart,</l>
+               <l>The Nayles his Fleſh, the Speare did pierce his Heart.
+<note place="margin">
+                     <hi>Iohn</hi> 19.34. <hi>Ver.</hi> 21.</note>
+               </l>
+            </lg>
+            <lg>
+               <l>He had no ſinne, for me he was made ſin,</l>
+               <l>Chriſt, onely Chriſt muſt pacifie Gods wrath;</l>
+               <l>Angell nor Man, nor any thing, but him,</l>
+               <l>
+                  <hi>This</hi> to beleeve is true effectuall Faith:</l>
+               <l>Lord I beleeve, help thou my unbeleefe,</l>
+               <l>Make ſtrong my Faith like to the dying Theefe.
+<note place="margin">
+                     <hi>Luke</hi> 23.43.</note>
+               </l>
+            </lg>
+         </div>
+         <div type="poem">
+            <head>A true Faith.</head>
+            <lg>
+               <l>TAke time before, for he is bald behind,</l>
+               <l>Stretch forth thy hand, and take him by the locke;</l>
+               <l>Be ſtrong in Faith, and thou ſhalt Comfort find,</l>
+               <l>Gates being ſhut, it is too late to knocke:
+<note place="margin">
+                     <hi>Mat.</hi> 25.10.12.</note>
+               </l>
+               <l>Chriſt lov'd me ſo, when I was at a loſſe,</l>
+               <l>To gaine my Soule, he Dyed upon the Croſſe.</l>
+            </lg>
+            <lg>
+               <l>Thus he the <hi>Juſt,</hi> for me unjuſt was ſlaine,</l>
+               <l>The <hi>Righteous,</hi> for the unrighteous, Dyed;</l>
+               <l>The way to Heaven a fixed Faith makes plaine,</l>
+               <l>If that thy Faith be the right way applyed:</l>
+               <l>I doe beleeve that Chriſt did Dye for me;</l>
+               <l>Doe thou the like, and then he Dyed for thee.</l>
+            </lg>
+         </div>
+         <div type="poem">
+            <pb n="20" facs="tcp:192153:13"/>
+            <head>A holy Deſire.</head>
+            <lg>
+               <l>SEarch thou,
+<note place="margin">
+                     <hi>Pſal.</hi> 139.23.24.</note> O Lord, my heart at ground,</l>
+               <l>and rip it up in every Vaine,</l>
+               <l>All wickedneſſe that may be found,</l>
+               <l>pull up by roots, I feare no paine.</l>
+               <l>And if I harbour any thought,</l>
+               <l>that is contrary to thy will;</l>
+               <l>Grant me that grace to count it nought,</l>
+               <l>and baniſh it for being ill.</l>
+            </lg>
+            <lg>
+               <l>Lord let me ſee my wicked wayes,</l>
+               <l>and grace for to abhorre the ſame,</l>
+               <l>All Glory, Honour, Laud, and Prayſe</l>
+               <l>aſcribe I will unto thy Name:</l>
+               <l>With Angels I will then rejoyce,</l>
+               <l>in time of all Eternity,</l>
+               <l>When thou admits my Soule and Voyce</l>
+               <l>to Sing, and ſee the Trinity.</l>
+            </lg>
+         </div>
+         <div type="poem">
+            <lg>
+               <head>A Conſcience quiet, not good.</head>
+               <l>LOrd keep me from a Conſcience free from griefe,</l>
+               <l>That ever liv'd in joy, and worldly pleaſure;</l>
+               <l>But never ſorrow felt, untill the Death,</l>
+               <l>To ſighe for ſin, he never took the leiſure:</l>
+               <l>Yet he preſumes Gods mercy is ſo great,</l>
+               <l>He ſhall be ſav'd, though he doe not intreat.</l>
+            </lg>
+            <lg>
+               <head>A Conſcience never quiet, yet good.</head>
+               <l>LOrd look upon a Soule that ſighes for ſinne,</l>
+               <l>And mournes in ſecret, with a heart ſincere,</l>
+               <pb n="21" facs="tcp:192153:13"/>
+               <l>That Sathan ſeeks to catch within his Ginne,</l>
+               <l>But hath no power to quench his godly feare:</l>
+               <l>He grieves, and waits, when God will comfort ſend,</l>
+               <l>And ſo at length, obtaines his wiſhed end.</l>
+            </lg>
+            <lg>
+               <head>A Conſcience neither good, nor quiet.</head>
+               <l>OWofull wretch, whoſe Soule is never quiet,</l>
+               <l>Whoſe Conſcience fryes him in a fiery Flame;</l>
+               <l>Yet drinks, and drabs, ſweares, and feaſts with ryot,</l>
+               <l>Till Deaths dart ſtrike him in a mortall vaine:</l>
+               <l>Then cryes, and cries, will this paine laſt for ever?</l>
+               <l>VVhen will it end? A Voyce doth Anſwer, <hi>Never.</hi>
+               </l>
+            </lg>
+            <lg>
+               <head>A Conſcience quiet, and good.</head>
+               <l>O Happy he, whoſe Conſcience telleth him,</l>
+               <l>That goodly mones, hath wrought effectuall Faith.</l>
+               <l>Beleeves Chriſts blood hath waſh'd away his ſin,</l>
+               <l>That his deep wound appeas'd his Fathers wrath,</l>
+               <l>And doth deſire, and Pray, and Pray againe,</l>
+               <l>That never ſin have power in him to raigne.</l>
+            </lg>
+            <lg>
+               <l>God guard, and watch my thoughts from ſteps and falls,</l>
+               <l>For ſinners feet ſtand oft one tottering balls.</l>
+            </lg>
+         </div>
+         <div type="poem">
+            <head>No help in Man.</head>
+            <epigraph>
+               <q>Whom have I in Heaven but thee; and there is none upon Earth that I deſire beſides thee,</q>
+               <bibl>
+                  <hi>Pſal. 73.25.</hi>
+               </bibl>
+            </epigraph>
+            <lg>
+               <l>VVHen I collect all faculties I have,</l>
+               <l>I can find nought, but worthles worth in man,</l>
+               <l>No power at all he hath himſelfe to ſave,</l>
+               <l>his Birth is painefull, and his Life a ſpan,</l>
+               <l>As fraile as Graſſe, let him doe what he can:</l>
+               <pb n="22" facs="tcp:192153:14"/>
+               <l>Who puts his truſt in any Man at all,</l>
+               <l>Leanes on a Reed, and's ſure to catch a fall.</l>
+            </lg>
+            <lg>
+               <l>Take Man alone, as meerly he is Man</l>
+               <l>for help, and counſell, he is far to ſeek;</l>
+               <l>In his Conceit, he thinketh now and than,</l>
+               <l>that every words a ſentence he doth ſpeak,</l>
+               <l>And to excell, he oft his braines doth breake:</l>
+               <l>Great Counſels now, that hath the rateſt wits,</l>
+               <l>Their witty wiſedome, proves but fooliſh fits.</l>
+            </lg>
+            <lg>
+               <l>Now Man, I leave thee, for thou art but vaine,</l>
+               <l>unleſſe a Power from Heaven doe thee direct,</l>
+               <l>For by that Power, thou knowledge may obtaine,</l>
+               <l>to know thy ſelfe, and God for to affect,</l>
+               <l>To him alone give love and true reſpect:</l>
+               <l>VVhom have I then in <hi>Heaven and Earth,</hi> but thee,</l>
+               <l>For all things elſe are fraile and vanity.</l>
+            </lg>
+         </div>
+         <div type="poem">
+            <head>The Vanity of the World.</head>
+            <lg>
+               <l>THree things there are thats counted faults in men,</l>
+               <l>And worldlings hates them to the very Death;</l>
+               <l>Honour offered,
+<note place="margin">Honour. VVrongs. Faſhions.</note> and refuſed again;</l>
+               <l>And VVrongs received, yet cannot urge the breath,</l>
+               <l>Counts worldly Faſhions like an Aſpen Leafe:</l>
+               <l>VVhom theſe affect, the worldling holds as Fooles,</l>
+               <l>And fit to live obſcurely, like to Owles.</l>
+            </lg>
+            <lg>
+               <l>The firſt they hold a baſeneſſe in the Spirit;</l>
+               <l>The ſecond ſencoleſſe, a food, or ſtupid humour;</l>
+               <l>The third, a ſcorne to time, deſerves no merit,</l>
+               <l>And thus, poor Soules, they bide the worlds rumour:</l>
+               <l>
+                  <hi>Thus</hi> worldlings love that is the worlds conſumer:</l>
+               <pb facs="tcp:192153:14"/>
+               <l>
+                  <hi>Thou</hi> Wretch, thou <gap reason="illegible" resp="#MURP" extent="1 word">
+                     <desc>〈◊〉</desc>
+                  </gap>, thou <gap reason="illegible" resp="#MURP" extent="1 word">
+                     <desc>〈◊〉</desc>
+                  </gap>, haſt loſt thy ſight,</l>
+               <l>
+                  <hi>Thou</hi> art ſo blind, thou knowes not Day from Night.</l>
+            </lg>
+            <lg>
+               <l>
+                  <hi>The</hi> firſt doth hold, with God a true content;</l>
+               <l>
+                  <hi>The</hi> ſecond hath a care to live ſecure;</l>
+               <l>
+                  <hi>The</hi> third holds Faſhions, vaine and follies vent,</l>
+               <l>For Faſhions are for ſickle fooles a lure,</l>
+               <l>Fooles, and Faſhions are tyed together ſure:</l>
+               <l>Obſerve theſe ſignes, you ſhall perceive it plaine,</l>
+               <l>
+                  <hi>Theſe</hi> three things good, it is the world thats vaine.</l>
+            </lg>
+         </div>
+         <div type="poem">
+            <head>My Lent Labour, or Prayers, or Meditations.</head>
+            <lg>
+               <l>O Lord ſet thou my heart upright,
+<note place="margin">
+                     <hi>Pſal.</hi> 119.52.</note>
+               </l>
+               <l>and let my Meditations be,</l>
+               <l>
+                  <hi>To</hi> Pray to thee both Day and Night,</l>
+               <l>for to obtaine Eternity;</l>
+               <l>And that with Chriſt I may aſcend,
+<note place="margin">
+                     <hi>Io.</hi> 20.17.</note>
+               </l>
+               <l>Into thoſe joyes that never end.</l>
+            </lg>
+            <lg>
+               <l>
+                  <hi>Teach</hi> me, O Lord, in Faith to Pray,
+<note place="margin">
+                     <hi>Pſal.</hi> 86.11.</note>
+               </l>
+               <l>with holy feare, and godly groanes,</l>
+               <l>
+                  <hi>That</hi> my poor ſoule may finde the way,</l>
+               <l>with ſighes, and ſobbs, and mourning moanes,</l>
+               <l>My glorious Fathers Face to ſee,
+<note place="margin">
+                     <hi>Pſal.</hi> 17.15.</note>
+               </l>
+               <l>And ſing Songs with felicity.</l>
+            </lg>
+            <lg>
+               <l>Deare loving Father, doe not frowne,
+<note place="margin">
+                     <hi>Pſal.</hi> 30.7.</note>
+               </l>
+               <l>but in thy mercy look on me,</l>
+               <l>Leaſt my ſad ſins doe ſinke me downe,</l>
+               <l>and ſo I loſe Eternity:</l>
+               <l>But ſtill in Chriſt I put my truſt,
+<note place="margin">
+                     <hi>Ioh.</hi> 3.26.</note>
+               </l>
+               <l>
+                  <hi>That</hi> he will place me with the juſt.</l>
+            </lg>
+            <lg>
+               <pb facs="tcp:192153:15"/>
+               <l>It was my <gap reason="illegible" resp="#KEYERS" extent="1 span">
+                     <desc>〈…〉</desc>
+                  </gap> Death,</l>
+               <l>It was my ſinnes that made him Dye;</l>
+               <l>It was my ſinnes that ſtopt his breath,</l>
+               <l>It was my ſinnes, that cruelly</l>
+               <l>Did put the Lord of Life to paine,</l>
+               <l>But I was ſav'd,
+<note place="margin">1 <hi>Pet.</hi> 2.2.</note> when he was ſlaine.</l>
+            </lg>
+            <lg>
+               <l>It was his Love,
+<note place="margin">
+                     <hi>Ioh.</hi> 15.13.</note> not my deſeart,</l>
+               <l>It was his Love that ſet me free;</l>
+               <l>For this his Love, I give my heart,</l>
+               <l>It was his owne, he gave it me:</l>
+               <l>My heart,
+<note place="margin">
+                     <hi>Prov.</hi> 23.26. P<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                        <desc>•</desc>
+                     </gap> 15.28. <hi>Job.</hi> 19.30.</note> O Lord, thou doſt require,</l>
+               <l>Accept it then, whole and intire.</l>
+            </lg>
+            <lg>
+               <l>I thanke the Lord for this thy Death,</l>
+               <l>I thanke the Lord, that thus did Dye;</l>
+               <l>I thanke the Lord, that loſt thy breath,</l>
+               <l>I thanke the Lord,
+<note place="margin">
+                     <hi>Luke</hi> 23.46. <hi>Pſal.</hi> 31.4.5.</note> that patiently</l>
+               <l>Upon the Croſſe did pay my debt,</l>
+               <l>And broak the Coards of Sathans Net.</l>
+            </lg>
+            <lg>
+               <l>Thus for my Soule Lord I doe pleat,</l>
+               <l>Now for my Body I intreat,</l>
+               <l>My wants, good God, for to ſupply,</l>
+               <l>And Cure thy ſervants mallady:</l>
+               <l>I need not tell,
+<note place="margin">
+                     <hi>Mat.</hi> 6.11.</note> thou knowes my need,</l>
+               <l>Give me, my God, <hi>my Dayly Bread.</hi>
+               </l>
+            </lg>
+         </div>
+         <div type="poem">
+            <head>Cheriſh no Sinne.</head>
+            <lg>
+               <l>IF Pagan Princes,
+<note place="margin">
+                     <hi>Heb.</hi> 12.1.</note> for their <hi>Olympian</hi> ſports</l>
+               <l>did ſpare no coſt, vaine-glory to obtaine,</l>
+               <l>By Running, Tilting, and Games of divers ſorts,</l>
+               <l>feeding the fancies of a franticke braine,</l>
+               <pb n="25" facs="tcp:192153:15"/>
+               <l>Found ought, they thought their fooliſh fits would hinder,</l>
+               <l>Though nee'r ſo rich, would burne it to a Sinder.</l>
+            </lg>
+            <lg>
+               <l>If theſe, from whom was hid all ſaving grace,</l>
+               <l>would burne to nought, all that their pleaſures croſt,</l>
+               <l>What muſt we leave that runs a godly Race,</l>
+               <l>but all our ſinnes faſt tyed to a Poſt,</l>
+               <l>Let none be loſt, no, not in thy deſire,</l>
+               <l>But freely throw them Poſt and all in th'fire.</l>
+            </lg>
+            <lg>
+               <l>O thou my Soule, a bleſſed Race to runne,</l>
+               <l>throw every weight away that troubleth thee;</l>
+               <l>If fleſhly Luſts ſeeke thee to overcome,
+<note place="margin">1 <hi>Ep. <gap reason="illegible" resp="#MURP" extent="3 letters">
+                           <desc>•••</desc>
+                        </gap>.</hi> 2.11.</note>
+               </l>
+               <l>bid it avoyde, <hi>I</hi> hate thy company;</l>
+               <l>Thou art a weight that <hi>I</hi> muſt throw away,</l>
+               <l>God give me grace to make it good, <hi>I</hi> Pray.</l>
+            </lg>
+            <lg>
+               <l>Still <hi>I</hi> am bound to make all ſpeed <hi>I</hi> can,</l>
+               <l>to run my Courſe with patience to the end,</l>
+               <l>More ſtops <hi>I</hi> find, ſo vaine a thing is Man,</l>
+               <l>luſts of my Eyes, my Conſcience doth offend,</l>
+               <l>They ſpie ſtrange objects, that ſets my heart a flote,</l>
+               <l>For to deſire things farre above my lot.</l>
+            </lg>
+            <lg>
+               <l>And now my heart begins to mount aloft,</l>
+               <l>the world is all too little to content it,</l>
+               <l>
+                  <hi>It</hi> feeds on dainties, lyes on pillowes ſoft,</l>
+               <l>thus wealth breeds woe, unleſſe a man repent it:</l>
+               <l>Though all theſe luſts <hi>I</hi> finde in me too rife,</l>
+               <l>Good Lord defend me from the pride of life.</l>
+            </lg>
+            <lg>
+               <l>Lord heare my Prayer, take fleſhly luſts away,
+<note place="margin">1 <hi>Ep. Pet.</hi> 1.2.</note>
+               </l>
+               <l>and give my Eyes no power to luſt at all,</l>
+               <l>But on ſuch things, as lawfully <hi>I</hi> may</l>
+               <l>uſe, for to make the pride of liſe to fall:</l>
+               <pb n="26" facs="tcp:192153:16"/>
+               <l>Quit of all theſe, take heart, be of good cheare,</l>
+               <l>Run forth thy Race,
+<note place="margin">
+                     <hi>Pſal.</hi> 37.1.</note> be patient, doe not feare.</l>
+            </lg>
+         </div>
+         <div type="poem">
+            <head>Chriſts Love to Man.</head>
+            <lg>
+               <l>THe true Elect,
+<note place="margin">
+                     <hi>Heb.</hi> 12.2.</note> by true effectuall Faith,</l>
+               <l>beleeves that Chriſt by death hath them redeem'd,</l>
+               <l>A Prophet, Prieſt, and King, all three he hath</l>
+               <l>perform'd in Office, ſo deare he us eſteem'd,</l>
+               <l>That nothing ſhould be wanting for our good,</l>
+               <l>His Fathers wrath he hath appeas'd with blood.</l>
+            </lg>
+            <lg>
+               <l>Dare mortall man be bold as to deſire,</l>
+               <l>but that the God of gods hath it reveal'd,</l>
+               <l>His working ſpirits makes mortalls to admire,</l>
+               <l>that our Salvation ſhould not be conceal'd:</l>
+               <l>For wretched man had neer thought to have ſought it,</l>
+               <l>Had not Gods love, and Chriſt with blood have bought it.</l>
+            </lg>
+            <lg>
+               <l>This bleſſed <hi>Jeſus,</hi> the Author of our Faith,</l>
+               <l>with Heavenly joy did guide the way before,</l>
+               <l>And finiſh all; for ſo the Scripture ſaith,</l>
+               <l>that on the Croſſe, with ſhame, he clear'd our ſcore;</l>
+               <l>For he doth fit upon a glorious Sear,
+<note place="margin">1 <hi>Ep. Pet.</hi> 3.22.</note>
+               </l>
+               <l>One Gods right hand, for our poor Soules to pleat.</l>
+            </lg>
+         </div>
+         <div type="poem">
+            <head>
+               <hi>An Article of our Faith. He ſuffered under</hi> Pontius Pilate.</head>
+            <lg>
+               <l>MOurne mortall man in dolour of thy heart,</l>
+               <l>with ſorrows ſad, and ſighes lament thy ſin,</l>
+               <l>Chriſt Heaven forſakes,
+<note place="margin">
+                     <hi>Iſay</hi> 53.4. <hi>He ſuf<g ref="char:EOLhyphen"/>fered.</hi>
+                  </note> to beare a helliſh ſmart,</l>
+               <l>and took our baſe infirmities of him,</l>
+               <pb n="27" facs="tcp:192153:16"/>
+               <l>And for a time he made the Earth his ſtage,</l>
+               <l>To free us mortalls from his Fathers rage.</l>
+            </lg>
+            <lg>
+               <l>
+                  <hi>Tiberius</hi> then in <hi>Rome</hi> did beare the ſway,</l>
+               <l>and had the <hi>Jewes</hi> obedient to his power;
+<note place="margin">Under Pontius Pilate.</note>
+               </l>
+               <l>Sent <hi>Pontinus Pilate</hi> his Debuty away.</l>
+               <l>whoſe ſtrict commands made all the <hi>Jewes</hi> to lowre:</l>
+               <l>Yet for to pleaſe his Conſcience, did Condemne,</l>
+               <l>unjuſtly judging, led by wicked men.
+<note place="margin">
+                     <hi>Ioh.</hi> 19.16.</note>
+               </l>
+            </lg>
+            <lg>
+               <l>The Lord of Life he did condemne to dye,
+<note place="margin">1 <hi>Cor.</hi> 2.8</note>
+               </l>
+               <l>by providence, he judged unto Death,</l>
+               <l>That no Death elſe, but that, could teſtifie,
+<note place="margin">VVas cruc<gap reason="illegible" resp="#MURP" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>fied.</note>
+               </l>
+               <l>the Lambe of God deprived of his breath:</l>
+               <l>All former Types and Propheſies of him,</l>
+               <l>He did fulfill, and clear'd the <hi>Juſt</hi> of ſin.</l>
+            </lg>
+            <lg>
+               <l>For to make good his Death, he buried was,
+<note place="margin">
+                     <hi>Dead and bur<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                           <desc>•</desc>
+                        </gap>ed. Ioh.</hi> 19.41</note>
+               </l>
+               <l>within a Tombe where never none was layd;</l>
+               <l>To make it ſafe, a Guard on it did paſſe,</l>
+               <l>a jealious feare, did make the <hi>Jewes</hi> afraid,</l>
+               <l>That his Diſciples his body ſhould convay,
+<note place="margin">
+                     <hi>Mat.</hi> 27.64.</note>
+               </l>
+               <l>And on the Night ſhould ſteale his Corps away.</l>
+            </lg>
+            <lg>
+               <l>But by his Power, for he himſelfe was Power,
+<note place="margin">
+                     <hi>Ioh.</hi> 10.18. <hi>The grave is ſome<g ref="char:EOLhyphen"/>times ta<g ref="char:EOLhyphen"/>k<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                           <desc>•</desc>
+                        </gap>n for Hell. Mat.</hi> 28.6 Act. 2.24. <hi>Pſ<gap reason="illegible" resp="#MURP" extent="1 letter">
+                           <desc>•</desc>
+                        </gap>.</hi> 16.10. <hi>H<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                           <desc>•</desc>
+                        </gap> 
+                        <gap reason="illegible" resp="#MURP" extent="1 letter">
+                           <desc>•</desc>
+                        </gap>e<gap reason="illegible" resp="#MURP" extent="1 letter">
+                           <desc>•</desc>
+                        </gap>cen<g ref="char:EOLhyphen"/>ded into hell, not locally. Hoſ.</hi> 13.14</note>
+               </l>
+               <l>he from the Grave did powerfully ariſe;</l>
+               <l>Mans Enemy, grim Death, he made to lowre,</l>
+               <l>triumphingly, the Grave he did deſpiſe:</l>
+               <l>For none but Chriſt, he had the power alone,</l>
+               <l>Free from Corruption was this holy one.</l>
+            </lg>
+            <lg>
+               <l>Then it is ſaid, <hi>to Hell he did deſcend;</hi>
+               </l>
+               <l>by Helliſh paines, he muſt worke mans ſalvation,</l>
+               <l>Not locally, for then I ſhould offend,</l>
+               <l>among the damned, doom'd unto damnation,</l>
+               <pb n="28" facs="tcp:192153:17"/>
+               <l>As man, being there, be never could returne,</l>
+               <l>But evermore in fiery torments burne.</l>
+            </lg>
+            <lg>
+               <l>Where ſhall we finde that Chriſt perform'd his Paſſion?</l>
+               <l>not with the Damned,
+<note place="margin">Chriſt in his paſſion</note> neither in the Grave;</l>
+               <l>But Praying in the Garden, as it was his faſhion,</l>
+               <l>paine prickt his heart, ſweat blood, and there to have</l>
+               <l>The paines of Hell, Gods wrath within a Cup,</l>
+               <l>VVhich could not paſſe, before he drunke it up.</l>
+            </lg>
+            <lg>
+               <l>This was not all, much more then this muſt be,</l>
+               <l>mockt,
+<note place="margin">
+                     <hi>Indured the ſhame, deſpiſed the croſſe. All is fi<g ref="char:EOLhyphen"/>niſhed. Mat.</hi> 27.46. <hi>Pſal.</hi> 22.7. <hi>Rev.</hi> 5.1. <hi>Gen.</hi> 49.9. <hi>Rev.</hi> 5.5.</note> and arraign'd, condemn'd his Life to loſe,</l>
+               <l>Moſt ſhamefully be nayl'd unto a Tree,</l>
+               <l>and Crucified upon a wooden Croſſe;</l>
+               <l>There finiſht all that he did undertake,</l>
+               <l>When he did cry, <hi>My God doth me forſake.</hi>
+               </l>
+            </lg>
+            <lg>
+               <l>This crying Lambe, he undertook</l>
+               <l>Seaven Seales to open, and the book;</l>
+               <l>Of <hi>Judahs</hi> Tribe, this was the Lyon,</l>
+               <l>That brought all joy and peace to <hi>Syon;</hi>
+               </l>
+               <l>This holy Lambe,
+<note place="margin">
+                     <hi>Ioh.</hi> 19 16.</note> our ſoules to gaine,</l>
+               <l>Was by the <hi>Jewes,</hi> and <hi>Pilate</hi> ſlaine:</l>
+               <l>Gods onely deare, beloved Son,</l>
+               <l>Sinne, Devill, and Death did overcome;</l>
+               <l>Look on him Lord, yet bleeding ſee,</l>
+               <l>It is his blood that ſaveth me;</l>
+               <l>I thanke my God,
+<note place="margin">
+                     <hi>Eph.</hi> 3.6.</note> this Faith I hold,</l>
+               <l>Thy promiſe Lord doth make me bold.</l>
+            </lg>
+         </div>
+         <div type="poem">
+            <head>A Heaven on Earth.</head>
+            <lg>
+               <l>REading an Author that I will not name,</l>
+               <l>who ſaith, the Elect beginneth Heaven on Earth;</l>
+               <pb n="29" facs="tcp:192153:17"/>
+               <l>And for my part I will beleeve the ſame,</l>
+               <l>for joyes are great thats found in a new birth.</l>
+               <l>VVhen God grants grace to rule and guide the heart,</l>
+               <l>There is no feare, true Faith will doe his part.</l>
+            </lg>
+            <lg>
+               <l>VVhat comfort more, when Saints by Faith doe hold</l>
+               <l>that God in glory fills the heavens with light,</l>
+               <l>No Summers heat to feare, nor VVinters cold,</l>
+               <l>the Sonne of Sonnes is ever in their ſight:</l>
+               <l>There joyes and dayes are endleſſe in their length,</l>
+               <l>Seen of all Saints, but not with equall ſtrength.</l>
+            </lg>
+            <lg>
+               <l>God in his mercy will our workes regard,</l>
+               <l>but for our merits they are nothing worth;</l>
+               <l>Cold water in a Cup, he will reward,</l>
+               <l>and Martyrs blood by Tyrants powred forth;</l>
+               <l>They both ſhall be content to their deſire,</l>
+               <l>But for deſert, they nothing can require.</l>
+            </lg>
+            <lg>
+               <l>Strive then on Earth, in Heaven to have a place,</l>
+               <l>effectuall Faith, and Grace, will guide the way;</l>
+               <l>Let hope thee help, be ſure in any caſe,</l>
+               <l>and love of God will force thee for to Pray:</l>
+               <l>Then Pray in Faith, it will thy ſoule prepare,</l>
+               <l>The world to ſcorne, in Heaven to have a ſhare.</l>
+            </lg>
+         </div>
+         <div type="poem">
+            <head>The Soules Complaint.</head>
+            <lg>
+               <l>O Lord, when I doe ſummon up my ſins,</l>
+               <l>they mount to be in number numberleſſe,
+<note place="margin">
+                     <hi>Pſal.</hi> 50.17. <hi>Iſay</hi> 57.15. <hi>Pſal.</hi> 50.1</note>
+               </l>
+               <l>Then godly ſorrow in my ſoule begins,</l>
+               <l>and cryes for mercy in my great diſtreſſe:</l>
+               <l>For mercy Lord, for mercy I intreat,</l>
+               <l>Thy mercy farre exceeds my Sins, though great.</l>
+            </lg>
+            <lg>
+               <pb n="30" facs="tcp:192153:18"/>
+               <l>Look on the wounds before thy face that bleeds,</l>
+               <l>it was my ſins that made thoſe mortall wounds</l>
+               <l>
+                  <hi>Thy</hi> heavenly food, my ſoule with comfort feeds,</l>
+               <l>thy bleſſed Promiſes in all my ſences ſounds,
+<note place="margin">
+                     <hi>Joh.</hi> 6.47.</note>
+               </l>
+               <l>My ſinnes are pardoned, for I truſt in him,</l>
+               <l>VVhoſe bleeding wounds doth waſh away my ſin.</l>
+            </lg>
+            <lg>
+               <l>And now my soule, prepare thy ſelfe to take</l>
+               <l>thoſe ſacred ſignes that Chriſt hath Inſtituted;</l>
+               <l>Receive by Faith, they will thee joyfull make,</l>
+               <l>his righteouſneſſe be to thy ſelfe imputed:</l>
+               <l>
+                  <hi>That</hi> is the Robe that makes us Rich in Grace,</l>
+               <l>And ſhine like Saints before his glorious Face.</l>
+            </lg>
+         </div>
+         <div type="poem">
+            <head>The Soules requeſt toGod before the Communion.</head>
+            <lg>
+               <l>TRy Heart,
+<note place="margin">
+                     <hi>Mat.</hi> 5.8.</note> and Reignes, without, within,</l>
+               <l>Lord cleanſe them cleane, and make them pure;</l>
+               <l>Plucke up by Roots all ſorts of ſin,</l>
+               <l>thy blood,
+<note place="margin">
+                     <hi>Iſay</hi> 53.5. <hi>Iſay</hi> 43 4</note> O Lord, my wounds muſt cure,</l>
+               <l>And being cured Lord by thee,</l>
+               <l>My ſoule ſhall live eternally.</l>
+            </lg>
+            <lg>
+               <l>As ſure as I doe Eate the Bread,
+<note place="margin">
+                     <hi>My in<g ref="char:EOLhyphen"/>ward thoughts at the Commu<g ref="char:EOLhyphen"/>nion. Ioh.</hi> 6.51.</note>
+               </l>
+               <l>and in my ſtomacke it diſgeaſt,</l>
+               <l>By Faith upon Chriſts Fleſh I feed,</l>
+               <l>a miſticall and holy Feaſt.</l>
+               <l>And when I doe receive the Cup,</l>
+               <l>and Drinke the VVine, my Heart doth ſay,</l>
+               <l>It is Chriſts blood, by Faith drink't up,</l>
+               <l>then I give thanks, and thus I Pray.</l>
+            </lg>
+            <lg>
+               <pb n="31" facs="tcp:192153:18"/>
+               <l>Now then in me, and I in thee,
+<note place="margin">
+                     <hi>I<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                           <desc>•</desc>
+                        </gap>h.</hi> 
+                     <gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>.56. <hi>My Pray<g ref="char:EOLhyphen"/>er after the Com<g ref="char:EOLhyphen"/>munion.</hi>
+                  </note>
+               </l>
+               <l>Joyn'd faſt in Faith, knit one in one,</l>
+               <l>Lord let us never parted be,</l>
+               <l>
+                  <hi>Till</hi> heaven take ſoule, and earth the bone,</l>
+               <l>And both at Reſurrection Riſe,
+<note place="margin">
+                     <hi>Ioh</hi> 19.27.</note>
+               </l>
+               <l>By Gods great power made one againe,</l>
+               <l>
+                  <hi>Then</hi> I ſhall ſee thee with theſe Eyes,</l>
+               <l>And ever prayſe thy holy Name.</l>
+            </lg>
+            <lg>
+               <l>All Glory be to God above,</l>
+               <l>
+                  <hi>That</hi> fills my heart with joy and love.</l>
+            </lg>
+         </div>
+         <div type="poem">
+            <head>
+               <hi>A Friendly Admonition to the</hi> Quakers.</head>
+            <lg>
+               <l>O Lord my God, give grace to guide my Pen,</l>
+               <l>
+                  <hi>To</hi> write the truth of theſe vild wicked men,</l>
+               <l>VVhich doting, drives into the Hunters ſnares,</l>
+               <l>
+                  <hi>To</hi> breathe out Curſes, when they ſhould uſe Prayers:</l>
+               <l>Confound their Pillars, or convert their Rockes,</l>
+               <l>Miſ-leading Leaders, curſed <hi>Nayler, Fox;</hi>
+               </l>
+               <l>Falſe Zeale and Spirits, makes them boaſt and cracke,</l>
+               <l>For <hi>Gilpin</hi> ſaid, <hi>they have both White and Blacke:</hi>
+               </l>
+               <l>
+                  <hi>Theſe</hi> men take pleaſure on the Sabbath Day,</l>
+               <l>
+                  <hi>To</hi> trouble ſome, almoſt as bad as they.</l>
+               <l>Thoſe that dare Preach, not Call'd by holy order,
+<note place="margin">
+                     <hi>Mat.</hi> 7.15.</note>
+               </l>
+               <l>With Hands layd on, approv'd by Heavens Recorder.</l>
+               <l>Doth runne themſelves in danger of their Maker,</l>
+               <l>For to be puniſh'd equall with the <hi>Quaker.</hi>
+               </l>
+               <l>Theſe hold, that they once call'd, can ſinne no more,</l>
+               <l>Though <hi>Thiefe, or Robber, Traytor, or a Whore;</hi>
+               </l>
+               <l>Againſt all truth and Conſcience, they aſpire,</l>
+               <l>To guard damn'd Doctrine, and make truth a lyar;
+<note place="margin">
+                     <hi>Ioh.</hi> 1.8.</note>
+               </l>
+               <pb facs="tcp:192153:19"/>
+               <l>That crys we are damn'd, in every <hi>Towne and Street,</hi>
+               </l>
+               <l>
+                  <hi>This</hi> bids Repent, I hold that Doctrine ſweet,</l>
+               <l>But both are led with ſuch a ſubtile guide,</l>
+               <l>
+                  <hi>That</hi> ſhoots the ſtrait,
+<note place="margin">
+                     <hi>Mat.</hi> 7.13</note> and runs the way thats wide;</l>
+               <l>Lord cleare their Eyes, that they may ſee the evill,</l>
+               <l>And ſave their ſoules from running to the Devill.</l>
+               <l>
+                  <hi>They</hi> ſay, <hi>the day of Judgement is at hand;</hi>
+               </l>
+               <l>
+                  <hi>That</hi> I beleeve, for I doe underſtand,</l>
+               <l>
+                  <hi>That</hi> Chriſt himſelfe fore-told of ſuch a Sect,</l>
+               <l>
+                  <hi>That</hi> ſhould deceive, but never his Elect.</l>
+               <l>
+                  <hi>This</hi> Sect lay cloſe ſix hundred fifty Yeare,</l>
+               <l>One thouſand more, yet never knowen here.</l>
+               <l>Audatious Rebels, that wrongs our Heavenly King,</l>
+               <l>Aſſumes that Honour that is due to him.</l>
+               <l>You ſay you are, <hi>the Life, the Truth, the Way,</hi>
+               </l>
+               <l>What have you left? to whom are we to Pray?</l>
+               <l>What, doe you thinke we take you to be gods?</l>
+               <l>Preſuming thus, there is but little odds:</l>
+               <l>O wretched wretches, know you are but men,</l>
+               <l>And dye you ſhall, take heed of <hi>Judgement</hi> then.</l>
+               <l>Chriſt is the <hi>Life,</hi> which life he freely gave,</l>
+               <l>His faithfull ſervants, and Elect to ſave:</l>
+               <l>Chriſt is the <hi>Truth,</hi> you dare it not deny,</l>
+               <l>He led the <hi>Way,</hi> when he was plea'd to dye,</l>
+               <l>Was Buried, Roſe, Aſſend, then ſeen no more,</l>
+               <l>Be faithfull, follow, the way is made before:</l>
+               <l>Stand ſtill, and ſtudy, and bluſh you are amiſſe,</l>
+               <l>And cry for mercy, while there mercy is:</l>
+               <l>Love not that Spirit, that maketh all this ſtrife,</l>
+               <l>Confeſſe you are, no way, no truth, no life.</l>
+            </lg>
+            <trailer>FINIS.</trailer>
+            <pb facs="tcp:192153:19"/>
+            <pb facs="tcp:192153:20"/>
+            <pb facs="tcp:192153:20" rendition="simple:additions"/>
+         </div>
+      </body>
+   </text>
+</TEI>
